@@ -3,7 +3,8 @@ Example Spring Consul
 - Segue abaixo para inicia o consul
 - Descompacte o arquivo consul_1.19.0_darwin_amd64.zip
 - Entre na pasta /consul_1.19.0_darwin_amd64 
-- Digite o seguinte comando ./consul agent -server -bootstrap-expect=1 -data-dir=consul-data -ui -bind=127.0.0.1
+- Digite o seguinte comando:
+- ./consul agent -server -bootstrap-expect=1 -data-dir=consul-data -ui -bind=127.0.0.1
 - Acesse o link http://localhost:8500/ui/dc1/services
 - No menu clique em "Key / Value"
 - Clique em CREATE
