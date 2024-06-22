@@ -13,6 +13,7 @@ target/
 .springBeans
 .sts4-cache
 .DS_Store
+consul_1.19.0_darwin_amd64
 
 ### IntelliJ IDEA ###
 .idea
