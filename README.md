@@ -1,6 +1,6 @@
 # service-spring-consul
 Example Spring Consul
-Segue abaixo para inicia o consul
+- Segue abaixo para inicia o consul
 - Descompacte o arquivo consul_1.19.0_darwin_amd64.zip
 - Entre na pasta /consul_1.19.0_darwin_amd64 
 - Digite o seguinte comando ./consul agent -server -bootstrap-expect=1 -data-dir=consul-data -ui -bind=127.0.0.1
