@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: service-spring-consul
+  config:
+    import: 'consul:'
+  cloud:
+    consul:
+      config:
+        enabled: true
+        name: service-spring-consul
+      host: localhost
+      port: '8500'
+  discovery:
+    instance-id: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
